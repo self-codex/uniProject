@@ -1,0 +1,18 @@
+ first create two database xampp server
+
+first db name and table
+
+create database contact;
+				TALBLE
+create table userinfo(Id int primary, name varchar, phone varchar, email varchar,  comment varchar);
+
+
+
+2nd db name and table
+
+create database registration;
+				TABLE
+create table regdata(fname varchar, lname varchar, email varchar, pass varchar);
+
+
+create as it is ;

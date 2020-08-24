@@ -1,0 +1,44 @@
+.vid-margin {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+}
+
+.video-container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.user-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    background-color: rgba(245, 0, 0, 0.171);
+    width: 100%;
+    min-height: 91vh;
+}
+
+.user-content h1 {
+    position: relative;
+    z-index: 11;
+    margin-top: 15%;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    font-style: oblique;
+}
